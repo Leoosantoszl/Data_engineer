@@ -1,3 +1,5 @@
+#Infelizmente não testei essa dag pois meu computador não tem capacidade para que eu consiga instalar a ferramente.
+
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
