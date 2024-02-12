@@ -1,0 +1,15 @@
+#Primeiro baixar a imagem do apache airflow com o comando
+
+docker pull apache/airflow
+# em seguida executa-la
+docker run apache/airflow
+#depois podemos baixar as difinições padrões do airflow no docker compose
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.1/docker-compose.yaml'
+
+#após definirmos nosso ambiente, podemos alterar os diretorios dentro dos VOLUME, 
+#para que nosso docker consiga clonar os arquvios sempre que for executado,
+#Agora vamos basta baixar todos os requisitos que faltam para execução.
+docker-compose up airflow-init
+#subir o docker
+docker-compose up
+#agora podemos acessar o airflow pelo https://localhost:8080 
