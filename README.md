@@ -1,6 +1,6 @@
 # 🛠️ Projeto de Pipeline de Dados com MongoDB, Pandas, MySQL e Airflow
 
-Este projeto implementa uma pipeline de dados completa que realiza as etapas de **extração, transformação e carga (ETL)** usando:
+Este projeto une duas diferentes fontes de dados relacionais e não relacionais utilizando um pipeline de dados completo que realiza as etapas de **extração, transformação e carga (ETL)** usando:
 
 - **MongoDB** para armazenamento inicial dos dados (NoSQL)
 - **Pandas** para transformação e limpeza
